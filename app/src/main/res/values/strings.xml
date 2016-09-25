@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Stalker</string>
+    <string name="action_settings">Settings</string>
+    <color name="light_red">#7A0E0E</color>
+    <color name="peach">#D3AF8E</color>
+    <color name="red">#5A0B0B</color>
+    <color name="dark_red">#380606</color>
+    <color name="black">#201B1B</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

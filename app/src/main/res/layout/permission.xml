@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gigamog.com.fragment.Permission"
+    android:background="@color/black"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/permissionLabel"
+            android:text="In order to properly stalk you you must accept "
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:layout_margin="30dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Agree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/agreeButton"
+            android:layout_margin="80dp"
+            android:textColor="@color/peach"
+            android:background="@color/dark_red"
+            android:elevation="13dp" />
+    </LinearLayout>
+
+</FrameLayout>
